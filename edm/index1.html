@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDM Take Home Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>EDM Home Assignment</h1>
+  <div id="question1">
+    <h3>Question 1</h3><br>
+  </div>
+  <div class="QN1">
+    <!-- For user input -->
+    <form id="calculator-form">
+      <div>
+        <label for="kva_value">KVA value:</label>
+        <input type="text" id="kva_value" name="kva_value" required>
+      </div><br>
+      <div>
+        <label for="v1">V1:</label>
+        <input type="text" id="v1" name="v1" required>
+      </div><br>
+      <div>
+        <label for="v2_value">V2 value:</label>
+        <input type="text" id="v2_value" name="v2_value" required>
+      </div><br>
+      <div>
+        <label for="voc_value">Voc value:</label>
+        <input type="text" id="voc_value" name="voc_value" required>
+      </div><br>
+      <div>
+        <label for="Ioc_value">Ioc value:</label>
+        <input type="text" id="Ioc_value" name="Ioc_value" required>
+      </div><br>
+      <div>
+        <label for="Poc_value">Poc value:</label>
+        <input type="text" id="Poc_value" name="Poc_value" required>
+      </div><br>
+      <div>
+        <label for="vsc_value">Vsc value:</label>
+        <input type="text" id="vsc_value" name="vsc_value" required>
+      </div><br>
+      <div>
+        <label for="Isc_value">Isc value:</label>
+        <input type="text" id="Isc_value" name="Isc_value" required>
+      </div><br>
+      <div>
+        <label for="Psc_value">Psc value:</label>
+        <input type="text" id="Psc_value" name="Psc_value" required>
+      </div><br>
+      <div>
+        <label for="Pf_value">PF value:</label>
+        <input type="text" id="Pf_value" name="Pf_value" required>
+      </div><br>
+      <div>
+        <label for="Lp_value">LP value in percentage:</label>
+        <input type="text" id="Lp_value" name="Lp_value" required>
+      </div><br>
+      <button type="button" onclick="calculateParameters()">Calculate</button>
+    </form>
+    <!-- Results -->
+    <div id="results"></div>
+
+    <div id="donation">
+      <h3>
+        Feel free to make donation, hopefully this helps you get your A!
+      </h3> 
+      <img src="paynow.jpg" alt="limbeh spend alot time better make donation" style="height: 200px; width: 200px;">
+    </div>
+  </div>
+
+  <br><br><h3>Question 2</h3><br>
+  <div class="QN2">
+    <!-- Input for qn 2 -->
+    <form id="calculator-form2">
+      <div>
+        <label for="kva_value2">KVA value:</label>
+        <input type="text" id="kva_value2" name="kva_value2" required>
+      </div><br>
+      <div>
+        <label for="eff_value2">Efficiency (non-max) value in %:</label>
+        <input type="text" id="eff_value2" name="eff_value2" required>
+      </div><br>
+      <div>
+        <label for="Pf_value2">Power Factor:</label>
+        <input type="text" id="Pf_value2" name="Pf_value2" required>
+      </div><br>
+      <div>
+        <label for="lmax_value2">Efficiency (max) value in %:</label>
+        <input type="text" id="lmax_value2" name="lmax_value2" required>
+      </div><br>
+      <button type="button" onclick="calculateParameters2()">Calculate</button>
+    </form>
+    <!-- Result for qn2 -->
+    <div id="results2"></div>
+
+    <img src="catstudy.gif" alt="cat dying from studying" style="width:100px;height:100px;">
+  </div>
+    
+
+  <script src="index1.js"></script>
+</body>
+</html>
