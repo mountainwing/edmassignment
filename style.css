@@ -1,21 +1,33 @@
+body {
+  background-image: url(web-network-technology-developer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 h1{
   text-align: left;
+  color: aliceblue;
 }
 
 .QN1 {
   display: flex;
   margin-left: 10px;
   column-gap: 10px;
+  color: aliceblue;
 }
 
 .QN2{
   display: flex;
   margin-left: 10px;
   column-gap: 10px;
+  color: aliceblue;
 }
 
 #question1{
   width: 500px;
+  color: aliceblue;
   font-size: 2em;
   font-family: Verdana;
 }
@@ -51,17 +63,19 @@ button{
   font-size: 1em;
   font-family: verdana;
   width: 200px;
+  color: aliceblue;
 }
 
 #results2{
   font-size: 1em;
   font-family: verdana;
   width: 200px;
+  color: aliceblue;
 }
-
+/* 
 #donation{
-  margin-left: 100px;
-}
+  margin-left: 0;
+} */
 
 #catstudy{
   margin-left: 100px;
